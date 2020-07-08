@@ -9,7 +9,7 @@
 
             <?php if ($field['type'] == 'textarea') : ?>
 
-                 <?php print input_attr($field_id, $field) ?>></>
+                <textarea <?php print input_attr($field_id, $field) ?>></textarea>
 
             <?php else : ?>
 

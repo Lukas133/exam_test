@@ -17,7 +17,8 @@ $navigation = new Navigation();
     <title>Taxi Service</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
- </head>
+    <script src="assets/js/app.js" type="module"></script>
+</head>
 
 <body>
     <?php print $navigation->render(); ?>
